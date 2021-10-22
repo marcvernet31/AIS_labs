@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import Summary from "./components/description-unit/summary";
-import CreateDU from "./components/description-unit/createDU";
+import Summary from "./components/summary";
+import CreateDU from "./components/createDU";
 
 function App() {
   return (

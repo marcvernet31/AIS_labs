@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import "@testing-library/jest-dom";
 import App from "../../App";
 import userEvent from '@testing-library/user-event';
-import CreateDU from "../../components/description-unit/createDU";
+import CreateDU from "../../components/createDU";
 
 test("new description unit creation form with fields is displayed", async () => {
     render(<CreateDU/>);
